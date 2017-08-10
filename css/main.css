@@ -13,6 +13,7 @@ body {
 
 /*Header Styling*/
 header {
+	font-family: 'Delius', sans-serif;
 	text-align: center;
 	background-color: aqua;
 	padding: 10px;
@@ -45,8 +46,27 @@ nav ul li {
 /*Footer Styling*/
 
 .foot {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	background-color: aqua;
+	padding: 20px 10px;
 	/*margin-bottom: -10px;*/
 	margin-right: -10px;
 	margin-left: -10px;
 }
+
+.foot > div {
+	font-family: 'Delius', sans-serif;
+	margin: 5px 30px;
+	padding: 5px 30px;
+}
+
+#copyright {
+	font-size: 1.5em;
+}
+
+
+
+
+
