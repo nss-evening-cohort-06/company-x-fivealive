@@ -18,15 +18,22 @@ ul {
 
 }
 
-img {
+.jobs-img {
 	height: 100px;
 	width: 100px;
-	display: inline-block;
-	margin: 5px;
+	display: block;
+	margin: 5px auto 10px;
+}
+
+h2 {
+	text-align: center;
 }
 
 h3 {
 	margin: 3px;
+	font-style: italic;
+	text-align: center;
+
 }
 
 
