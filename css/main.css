@@ -39,4 +39,23 @@ nav ul li {
 	text-align: right;
 }
 
+
+
+nav ul li a:hover {
+	font: darkgreen;
+	font-size: 1.2em;
+}
+
+nav ul li a:selected {
+	font: deeppink;
+}
+
+nav ul li a:active {
+	background-color: slateblue;
+	font: fuchsia;
+	padding: 10px;
+	font-size: 1.2em;
+
+}
+
 /*Footer Styling*/
