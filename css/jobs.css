@@ -1,9 +1,12 @@
-body {
-	background-color: pink;
-}
-
 #main-jobs {
 	width: 75% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.title-jobs {
+	clear: right;
 }
 
 ul {
@@ -12,9 +15,13 @@ ul {
 
 .jobs-container {
 	border-style: groove;
-	background-color: LightGray;
-	margin: 5px auto;
-	width: 90%;
+	background-color: #A0B0E0;
+	margin: 5px 5px;
+	max-width: 400px;
+}
+
+.jobs-container:hover {
+	border-color: hotpink;
 
 }
 
@@ -36,5 +43,13 @@ h3 {
 
 }
 
-
+.button-applyNow {
+	background-color: #ffcccc;
+	display: block;
+	width: 150px;
+	border-radius: 12px;
+	margin: auto auto;
+	position: relative;
+	bottom: 5px;
+}
 
