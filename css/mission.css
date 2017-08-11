@@ -1,0 +1,53 @@
+.main-div {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+
+#mission,
+#culture  {
+	width: 30%;
+	padding: .5em;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+}
+
+#vision  {
+	width: 30%;
+	padding: .5em;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: black;
+}
+
+section h3 {
+	text-align: center;
+}
+
+#mission {
+	background-image: url("../images/mission.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px 300px;
+	width: 300px;
+	height: 250px;
+}
+
+#vision {
+	background-image: url("../images/vision.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px 300px;
+	width: 300px;
+	height: 250px;
+}
+
+#culture {
+	background-image: url("../images/lines.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 250px;
+}
