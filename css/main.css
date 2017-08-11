@@ -43,6 +43,20 @@ nav ul li {
 	text-align: right;
 }
 
+nav ul li a:hover {
+	font-size: 1.2em;
+}
+
+nav ul li a:active {
+	font: crimson;
+	font-size: 1.2em;
+}
+
+nav ul li a:visited {
+	font: darkviolet;
+	font-size: 1.2em;
+}
+
 /*Footer Styling*/
 
 .foot {
