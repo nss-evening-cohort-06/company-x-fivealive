@@ -89,21 +89,6 @@ nav ul li a:active {
 }
 
 
-/*Body Content Styling*/
-#main-div-heading {
-	font-family: 'Schoolbell', sans-serif;
-	font-size: 3em;
-	text-align: center;
-	padding-top: 5%;
-}
-
-
-.images img {
-	width: 350px;
-	height: 350px;
-	margin: 2.5%;
-	justify-content: center;	
-}
 
 
 

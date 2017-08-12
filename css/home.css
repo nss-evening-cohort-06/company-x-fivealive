@@ -1,0 +1,36 @@
+/*Body Content Styling*/
+#main-div-heading {
+	font-family: 'Schoolbell', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
+}
+
+.images img {
+	width: 300px;
+	height: 300px;
+	margin: 2.5%;	
+}
+
+.productBlurb {
+	font-family: 'Pangolin', sans-serif;
+	font-size:	1.5em;
+	text-align: center;
+}
+
+#productBlurbDisclaimer {
+	font-family: 'Delius', sans-serif;
+	font-size: .75em;
+	text-align: center;
+}
+
+#dadImage {
+	display: flex;
+	justify-content: center;
+}
+
