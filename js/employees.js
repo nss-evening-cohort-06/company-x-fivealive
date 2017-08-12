@@ -2,37 +2,55 @@
 var allEmployees = [];
 
 var employee1 = {
-  image: "../images/caitlin.jpeg",
-  imageAlt: "employee",
-  name: "Caitlin Murnick",
-  title: "CFO",
-  bio: "Caitlin is learning JavaScript and the struggle is real.  Maybe one day I won't be running to catch up to the short bus."
+  image: "../images/ken.jpg",
+  imageAlt: "KenPicture",
+  name: "Ken Lewis",
+  title: "Co-Founder",
+  bio: "Ken is the Head Puba.  He does a great job of helping everyone and keeping us in line. In a way, he's used the Toddler Tether on us."
 };
 var employee2 = {
-  image: "./images/___________.jpg",
+  image: "../images/kelly.jpg",
   imageAlt: "image",
-  name: "Caitlin Murnick",
-  title: "COO",
-  bio: "dlkajdlfkjadskfj"
+  name: "Kelly Stoops",
+  title: "Co-Founder",
+  bio: "Kelly is a teacher and used her knowledge of how to keep children in line while creating this product. "
 };
 var employee3 = {
-  image: "./images/___________.jpg",
-  imageAlt: "image",
+  image: "../images/caitlin.jpg",
+  imageAlt: "caitinImage",
   name: "Caitlin Murnick",
-  title: "COO",
-  bio: "dlkajdlfkjadskfj"
+  title: "Co-Founder",
+  bio: "Caitlin is learning JavaScript and the struggle is real.  Maybe one day she won't be running to catch up to the short bus."
+};
+
+var employee4 = {
+  image: "../images/adam.jpg",
+  imageAlt: "adamImage",
+  name: "Adam Smith",
+  title: "Co-Founder",
+  bio: "Adam was a great asset in creating The Toddler Tether because of his ability to create logos and successful marketing campaigns."
+};
+
+var employee5 = {
+  image: "../images/juno.jpg",
+  imageAlt: "junoImage",
+  name: "Juno",
+  title: "Co-Founder",
+  bio: "Juno ."
 };
   
 allEmployees.push(employee1);
 allEmployees.push(employee2);
 allEmployees.push(employee3);
+allEmployees.push(employee4);
+allEmployees.push(employee5);
 
 
 function buildDomString(employee) {
     var domString = "";
 
     domString +=      '<section class=employeeSeparate>'
-   domString +=             '<div class="image">';
+   domString +=             '<div class="imageEmployees">';
   domString +=                 '<img src="'+ employee.image +'" alt="' + employee.imageAlt + '">';
   domString +=              '</div>';
   domString +=              '<div class="name">';
