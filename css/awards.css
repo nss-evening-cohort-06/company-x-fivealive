@@ -9,6 +9,10 @@
   font-size: 40px;
   margin-top: 50px;
   margin-bottom: 60px;
+  border: 10px dotted yellow;
+  padding:35px;
+  background: gold;
+  box-shadow: 10px 10px 5px grey;;
 }
 
 
@@ -25,8 +29,8 @@
 
 .award1pic {
   display: block;
-  max-width: 200px;
-  max-height: 130px;
+  width: 130px;
+  height: 130px;
   padding-right: 30px;
   float: left;
 }
@@ -52,12 +56,55 @@
 
 .award4pic {
   display: block;
-  max-width: 200px;
-  max-height: 130px; 
+  width: 200px;
+  height: 130px; 
   float: right; 
 }
 
+.award4pic {
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
 
+}
+
+.award4pic:hover {
+	width: 200px;
+    height: 150px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+.award3pic {
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+.award3pic:hover {
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+.award2pic {
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+.award2pic:hover {	
+    -webkit-transform: rotate(-360deg); /* Safari */
+    transform: rotate(-360deg);
+}
+.award1pic {
+    -webkit-transition: width 1s, height 1s; /* Safari */
+    transition: width 1s, height 1s;
+
+}
+
+.award1pic:hover {	
+    width: 160px;
+    height: 160px;
+}
 
 
 
