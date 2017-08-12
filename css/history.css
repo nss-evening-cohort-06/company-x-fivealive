@@ -1,19 +1,19 @@
 .paragraph {
 	margin: 10px 30px 30px;
-	background-color: rgba(118, 162, 143, .3);
+	background-color: rgba(81, 186, 101, .5);
 	padding: 1em;
 	 border-radius: 10px;
 }
 
-.mainHead {
-	background-color: rgb(222,222,222);
+.main-div {
+	background-color: rgb(181, 182, 183);
 	margin: 4em 7em;
 
 	padding: 20px;
 	
 }
 
-img {
+.leash {
 	float: right;
 	margin: 0 20px 10px 10px;
 	max-height: 400px;
@@ -35,7 +35,7 @@ p {
 	font-size: 1.5em;
 }
 
-#title-history {
+ #title-history {
 	text-align: center;
 	margin-top: 5px;
 	padding-bottom: 7px;
@@ -43,4 +43,5 @@ p {
 	font-weight: bold;
 	color: white;
     text-shadow: 2px 2px 4px #000000;
+    background-color: rgb(181, 182, 183);
 }
