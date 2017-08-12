@@ -13,7 +13,6 @@ body {
 
 /*Header Styling*/
 header {
-
 	font-family: 'Delius', sans-serif;
 	text-align: center;
 	background-color: lightgray;
@@ -24,42 +23,55 @@ header {
 	margin-left: -10px;
 }
 
-#smallLogo {
+/*#smallLogo {
 	position: absolute;
 	top: 100px;
 	left: 0px;
 	padding-bottom: 10px;
+}*/
+
+nav {
+	display: flex;
+	justify-content: center;
 }
 
 nav ul {
 	display: flex;
 	list-style: none;
-	padding: 0;
-
 }
 
 nav ul li {
-	flex-grow: 1;
-	padding-right: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
 	font-size: 20px;
 	text-align: right;
 }
 
-nav ul li a:hover {
-	font: darkgreen;
+a {
+	text-decoration: none;
+}
+
+a:hover {
 	font-size: 1.2em;
 }
 
-nav ul li a:selected {
+/*a:selected {
 	font: deeppink;
 }
 
-nav ul li a:active {
-	background-color: slateblue;
+a:active {
+	background-color: aqua;
 	font: fuchsia;
 	padding: 10px;
 	font-size: 1.2em;
+}*/
 
+.active {
+	background: aqua;
+	border-radius: 15%;
+	font-size: 1.2em;
+	padding-top: 2px;
+	padding-bottom:	2px;
 }
 
 
