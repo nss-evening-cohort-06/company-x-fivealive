@@ -36,7 +36,7 @@ var employee5 = {
   imageAlt: "junoImage",
   name: "Juno",
   title: "Co-Founder",
-  bio: "Juno ."
+  bio: "As a graphic artist and Community College development teacher, Juno brings many years of marketing and design experience which was extremely valuable in planning the Toddler Tether ."
 };
   
 allEmployees.push(employee1);
