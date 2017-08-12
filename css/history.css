@@ -1,0 +1,46 @@
+.paragraph {
+	margin: 10px 30px 30px;
+	background-color: rgba(118, 162, 143, .3);
+	padding: 1em;
+	 border-radius: 10px;
+}
+
+.mainHead {
+	background-color: rgb(222,222,222);
+	margin: 4em 7em;
+
+	padding: 20px;
+	
+}
+
+img {
+	float: right;
+	margin: 0 20px 10px 10px;
+	max-height: 400px;
+	max-width: 400px;
+	padding: 10px;
+	border-radius: 25px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+.writing2 {
+	text-align: 
+}
+
+p {
+	padding 20px;
+	margin: 25px;
+	font-size: 1.5em;
+}
+
+#title-history {
+	text-align: center;
+	margin-top: 5px;
+	padding-bottom: 7px;
+	font-size: 3em;
+	font-weight: bold;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
