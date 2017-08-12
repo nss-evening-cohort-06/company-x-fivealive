@@ -13,9 +13,11 @@ body {
 
 /*Header Styling*/
 header {
+
 	font-family: 'Delius', sans-serif;
 	text-align: center;
-	background-color: aqua;
+	background-color: lightgray;
+
 	padding: 10px;
 	margin-top: -10px;
 	margin-right: -10px;
@@ -44,18 +46,23 @@ nav ul li {
 }
 
 nav ul li a:hover {
+	font: darkgreen;
 	font-size: 1.2em;
+}
+
+nav ul li a:selected {
+	font: deeppink;
 }
 
 nav ul li a:active {
-	font: crimson;
+	background-color: slateblue;
+	font: fuchsia;
+	padding: 10px;
 	font-size: 1.2em;
+
 }
 
-nav ul li a:visited {
-	font: darkviolet;
-	font-size: 1.2em;
-}
+
 
 /*Footer Styling*/
 
@@ -63,7 +70,8 @@ nav ul li a:visited {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	background-color: aqua;
+	background-color: lightgray;
+
 	padding: 20px 10px;
 	/*margin-bottom: -10px;*/
 	margin-right: -10px;
@@ -80,6 +88,7 @@ nav ul li a:visited {
 	font-size: 1.5em;
 }
 
+
 /*Body Content Styling*/
 #main-div-heading {
 	font-family: 'Schoolbell', sans-serif;
@@ -95,8 +104,6 @@ nav ul li a:visited {
 	margin: 2.5%;
 	justify-content: center;	
 }
-
-
 
 
 
