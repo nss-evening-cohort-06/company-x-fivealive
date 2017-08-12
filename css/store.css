@@ -1,5 +1,6 @@
 h1.productsTitle {
 	text-align: center;
+	padding-top: 35px;
 }
 
 img.comfortIcn {
@@ -53,26 +54,9 @@ img.comfortIcn {
 	justify-content: center;
 }
 
-/* Sold Out*/
-/*.sold-out {
-	position: relative;
-	top: -400px;
-}*/
-
-/*.sold-out {
-	position: absolute;
-	position-top: 666px;
-}*/
-
 .product {
 	position: relative;
 }
-
-.sold-out {
-	position: absolute;
-	top: 90px;
-}
-
 
 
 
