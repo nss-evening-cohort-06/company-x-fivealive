@@ -1,0 +1,78 @@
+h1.productsTitle {
+	text-align: center;
+}
+
+img.comfortIcn {
+	margin-left: 50%;
+	max-width: 30px;
+	padding-top: 5px;
+}
+
+
+/*-- Card-Styling --*/
+
+.product {
+	width: 200px;
+	border: 2px solid lightgrey;
+	margin: .5%;
+
+}
+
+.image img {
+	width: 100%;
+	border-top: 1px solid lightgrey;
+	
+}
+
+.description > * {
+	margin: auto;
+	
+	text-align: center
+}
+
+.description {
+	padding: 2%;	
+}
+
+.description h6 {
+	padding: 2%;
+	font-size: 1.5em;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Card Layout */
+
+#product-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* Sold Out*/
+/*.sold-out {
+	position: relative;
+	top: -400px;
+}*/
+
+/*.sold-out {
+	position: absolute;
+	position-top: 666px;
+}*/
+
+.product {
+	position: relative;
+}
+
+.sold-out {
+	position: absolute;
+	top: 90px;
+}
+
+
+
+
