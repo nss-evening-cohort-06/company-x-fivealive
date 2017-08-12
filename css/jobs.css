@@ -1,0 +1,55 @@
+#main-jobs {
+	width: 75% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.title-jobs {
+	clear: right;
+}
+
+ul {
+	list-style: none;
+}
+
+.jobs-container {
+	border-style: groove;
+	background-color: #A0B0E0;
+	margin: 5px 5px;
+	max-width: 400px;
+}
+
+.jobs-container:hover {
+	border-color: hotpink;
+
+}
+
+.jobs-img {
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin: 5px auto 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	margin: 3px;
+	font-style: italic;
+	text-align: center;
+
+}
+
+.button-applyNow {
+	background-color: #ffcccc;
+	display: block;
+	width: 150px;
+	border-radius: 12px;
+	margin: auto auto;
+	position: relative;
+	bottom: 5px;
+}
+
